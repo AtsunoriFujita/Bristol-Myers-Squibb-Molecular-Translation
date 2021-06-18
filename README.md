@@ -23,7 +23,7 @@ _**Note: This repogitory is based on [hengck23](https://www.kaggle.com/hengck23)
 
 ## My Models
 
-Vit based model
+### Vit based model
 - Encoder: vit_deit_base_distilled_patch16_384
 - Decoder: TransformerDecoder
 - Loss: LabelSmoothingLoss
@@ -32,21 +32,20 @@ Vit based model
 There are 2 Vit based models.    
 The second was re-training by strengthening Noize Injection and Augmentation.
 
-With Normalize    
-Public LB: 0.77    
-Private LB: 0.78    
+Vit model1    
+- Public LB: 0.77 (With Normalize)    
+- Private LB: 0.78 (With Normalize)    
 
-With Normalize    
-Public LB: 0.76    
-Private LB: 0.77    
+Vit model2    
+- Public LB: 0.76 (With Normalize)    
+- Private LB: 0.77 (With Normalize)    
 
-
-Swin Transformer based model
+### Swin Transformer based model    
 - Encoder: swin_base_patch4_window12_384_in22k
 - Decoder: TransformerDecoder
 - Loss: LabelSmoothingLoss
 - Augumentation: RandomScale, Cutout
 
-With Normalize    
-Public LB: 0.91    
-Private LB: 0.92    
+Swin model    
+- Public LB: 0.91 (With Normalize)    
+- Private LB: 0.92 (With Normalize)    
